@@ -1,0 +1,20 @@
+Package: CLT
+Title: Exploring the Central Limit Theorum
+Version: 1.0.0
+Authors@R: 
+    person(given = "Jasmin",
+           family = "Cabarios",
+           role = c("aut", "cre"),
+           email = "cabariosjasmin@gmail.com")
+Description: This is a practice package for coursework. Lab 7 - Various Distributions and CLT
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    stringr,
+    magrittr,
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat
