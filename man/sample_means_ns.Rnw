@@ -1,0 +1,20 @@
+\name{sample_means_ns}
+\alias{sample_means_ns}
+\title{takes two vectors and number of repitions and returns a tibble of sample means and respective subset size}
+\usage{
+sample_means_ns(vec, reps, ns)
+}
+\arguments{
+\item{vec}{a vector of random distribution}
+
+\item{ns}{vector of subset numbers}
+
+\item{reps}{how many repititions}
+
+}
+\value{
+a tibble of sample means and respective subset size
+}
+\description{
+takes two vectors and number of repitions and returns a tibble of sample means and respective subset size
+}

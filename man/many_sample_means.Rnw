@@ -1,0 +1,20 @@
+\name{many_sample_means}
+\alias{many_sample_means}
+\title{simulates various sample means from a distribution vector}
+\usage{
+many_sample_means(vec, n, reps)
+}
+\arguments{
+\item{vec}{a vector}
+
+\item{n}{number of subsets}
+
+\item{reps}{how many repititions}
+
+}
+\value{
+vector of the sample means
+}
+\description{
+Takes a vector number of subsets and returns a vector of sample means
+}

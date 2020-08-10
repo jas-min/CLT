@@ -1,0 +1,18 @@
+\name{sample_mean}
+\alias{sample_mean}
+\title{take a random sample of size n from vec}
+\usage{
+sample_mean(vec, n)
+}
+\arguments{
+\item{vec}{A vector}
+
+\item{n}{An integer}
+
+}
+\value{
+the mean of that subsample
+}
+\description{
+This function should take as input a vector vec and an integer n. It should take a random sample of size n from vec, then calculate and return the mean of that subsample
+}
